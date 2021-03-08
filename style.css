@@ -1,0 +1,245 @@
+body{
+    font-family: 'Poppins', 'sans-serif';
+}
+.nav .nav-item .nav-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    /* dark-navy */
+    color: #000C2D;
+}
+.nav .nav-item .get-demo{
+    border: 1px solid #2F70FE;
+    box-sizing: border-box;
+    color:#2F70FE;
+}
+.header{
+    height: 533px;
+    left: 0px;
+    background-image: -webkit-linear-gradient(-87.5deg, #2F70FE 86%, #00ff8514 20%);
+    position: relative
+}
+.header .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 789px;
+    height: 282px;
+    left: 32%;
+    top: 100px;
+}
+.header .title{
+    position: static;
+    width: 620px;
+    height: 130px;
+    font-family: 'Poppins';
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 48px;
+    line-height: 65px;
+    /* or 135% */
+    color: #FFFFFF;
+}
+.header .para{
+    width: 605px;
+height: 60px;
+left: 92px;
+top: 137px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.header .button-up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 25px;
+    position: static;
+    width: 182px;
+    height: 52px;
+    left: 313.5px;
+    top: 230px;
+    background: #000000;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 33px 200px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.header .image-up{
+    position: absolute;
+    width: 389.74px;
+    height: 254.87px;
+    left: 250px;
+    top: 340px;
+}
+.header .image-up-right{
+    position: absolute;
+    left: 59.5%;
+    right: 8.88%;
+    top: 43.27%;
+    bottom: 84.69%;
+    mix-blend-mode: luminosity;
+}
+
+/* middle up section  */
+.middle-up{
+    position: relative;
+    width: 100%;
+    height: 561px;
+    left: 0%;
+    padding-top: 100px;
+    background: #00ff8514;
+    opacity: 1;
+    text-align: center;
+}
+.middle-up .left-svg{
+    position: absolute;
+    width: 107px;
+    height: 87px;
+    left: 11%;
+    top: 75%;
+}
+.middle-up h1{
+    color: #000;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.middle-up p{
+    width: 72%;
+    /* justify-content: center; */
+    margin:30px auto;
+    color: #000C2D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+}
+
+.middle-up .right-svg{
+    position: absolute;
+    right: 13%;
+    top: 10%;
+    
+}
+
+/* styling middle down section */
+.middle-down{
+    padding: 10% 0 3%;
+    position: relative;
+    justify-content: space-between;
+    background: #ffffff;
+    text-align: center;
+}
+.middle-down .col-md-6{
+    margin-bottom: 80px;
+}
+.middle-down .alignement-left{
+    text-align: left;
+}
+.middle-down .alignement-left:first-child{
+    padding-top: 45px;
+}
+.middle-down .alignement-right{
+    text-align: left;
+    padding-left: 80px;
+}
+
+.middle-down .one{
+    position: static;
+    width: 379px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181818;
+    margin: 24px 0px;
+    
+}
+.middle-down .p-one{
+    position: static;
+    width: 410px;
+    top: 98px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    /* or 169% */
+    letter-spacing: 0.01em;
+    color: #000C2D;
+    
+}
+.middle-down .img-left{
+    text-align: left;
+}
+.middle-down .img-right{
+    text-align: center
+}
+.middle-down a svg{
+    position:absolute;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+/* footer section  */
+.footer{
+    background:#000;
+    padding: 4% 0;
+}
+.footer .row-up{
+    margin-bottom: 50px;
+}
+.footer .list-heading{
+    color: #fff;
+}
+.footer .flex-column{
+    margin-top: 10px;
+}
+.footer .flex-column .nav-item{
+    padding: 3px 0;
+    line-height: 18px;
+}
+.footer .flex-column .nav-item .link-item{
+    font-size: 12px;
+    
+    letter-spacing: 0.02em;
+    color: #fff
+}
+.footer .row-down{
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+.footer .row-down .first-para{
+    padding-left: 10px;
+}
+.footer .row-down .last-para{
+    padding-left: 40px;
+}
